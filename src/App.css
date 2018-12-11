@@ -1,5 +1,8 @@
 .App {
+  color:white;
+  background-color: #282c34;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .App-logo {
@@ -29,4 +32,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1{
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+#button{
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.foto{
+width: 70%;
+height:auto;
+padding-left: 30%;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: auto;
+  line-height: auto;
+  background-color: #282c34;
+}
+
+.ant-carousel .slick-slide img {
+  color: #fff;
 }
