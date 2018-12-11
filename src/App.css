@@ -30,3 +30,24 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-carousel{
+  width: 100vw !important;
+  padding-left:1000px;
+}
+
+h3{
+  width: 100px !important;
+}
+
+img{
+  width: 1200px;
+}
+
+div{
+  width: 1100px;
+ 
+    background-color: aquamarine;
+
+}
+
