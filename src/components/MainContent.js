@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DrawerCustom from "./Example";
 
 const MainContent = ()=>{
     return(
@@ -6,6 +7,8 @@ const MainContent = ()=>{
 
             <h1>Miguel Gomez</h1>
             <h3>Full Stack Web Developer</h3>
+            <br/>
+            <DrawerCustom />
         </div>
     )
 }

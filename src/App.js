@@ -14,7 +14,6 @@ class App extends Component {
         <div className="father">
             <MainContent/>
 
-            <DrawerCustom />
             <Footer/>
         </div>
     );
