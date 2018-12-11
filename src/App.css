@@ -30,3 +30,16 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 600px;
+  line-height: 160px;
+  overflow: hidden;
+}
+
+.form {
+  padding-top: 60px;
+  padding-left: 500px;
+  width: 1000px;
+}
