@@ -1,3 +1,25 @@
+body{
+  background-color: rgb(64, 110, 95);
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-direction: row;
+  padding: 40px 0
+}
+
+.parrafito{
+  text-align: center;
+  color: #282c34;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(160, 160, 127);
+  width:100%;
+}
+
 .App {
   text-align: center;
 }
