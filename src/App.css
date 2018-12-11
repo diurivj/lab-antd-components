@@ -30,3 +30,29 @@
     transform: rotate(360deg);
   }
 }
+
+#components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: rgb(218,184,45);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.layoutAnt{
+  height: 100vh;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: auto;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide img {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 0;
+}
+
