@@ -6,7 +6,7 @@ import {Button} from 'antd';
 
 const Header = () => (
   <Button type='dashed' >
-      Pusheameee
+      About Us
   </Button>
 )
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 
 import { Menu, Icon } from 'antd';
@@ -28,12 +27,12 @@ class MenuComponent extends React.Component {
         mode="horizontal"
       >
         <Menu.Item key="mail">
-          <Icon type="mail" />Navigation One
+          <Icon type="mail" />Messages
         </Menu.Item>
         <Menu.Item key="app" disabled>
-          <Icon type="appstore" />Navigation Two
+          <Icon type="appstore" />Dashboard
         </Menu.Item>
-        <SubMenu title={<span className="submenu-title-wrapper"><Icon type="setting" />Navigation Three - Submenu</span>}>
+        <SubMenu title={<span className="submenu-title-wrapper"><Icon type="setting" />Settings</span>}>
           <MenuItemGroup title="Item 1">
             <Menu.Item key="setting:1">Option 1</Menu.Item>
             <Menu.Item key="setting:2">Option 2</Menu.Item>
@@ -44,7 +43,7 @@ class MenuComponent extends React.Component {
           </MenuItemGroup>
         </SubMenu>
         <Menu.Item key="alipay">
-          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
+          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Profile</a>
         </Menu.Item>
       </Menu>
     );
