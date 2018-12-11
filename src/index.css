@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+img{
+  width: 100%;
+}
+
+.carouselWid{
+  text-align: center;
+}
+
+.contentLayout{
+  text-align: center;
+}
+
+.ant-steps {
+  justify-content: center !important;
+  margin-top: 20px;
+}
+
+.ant-steps-item{
+  flex: auto !important;
+}
